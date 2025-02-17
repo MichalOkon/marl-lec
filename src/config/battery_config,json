@@ -1,0 +1,52 @@
+{
+  "battery_types": {
+    "high_capacity": {
+      "present": true,
+      "p_charge_max": 1.25,
+      "p_discharge_max": 1.25,
+      "capacity_max": 27,
+      "capacity_min": 0,
+      "initial_charge": 0,
+      "charge_efficiency": 0.9,
+      "discharge_efficiency": 0.9,
+      "charge_cost": 0,
+      "discharge_cost": 0
+    },
+    "standard": {
+      "present": true,
+      "p_charge_max": 1.25,
+      "p_discharge_max": 1.25,
+      "capacity_max": 13.5,
+      "capacity_min": 0,
+      "initial_charge": 0,
+      "charge_efficiency": 0.85,
+      "discharge_efficiency": 0.85,
+      "charge_cost": 0,
+      "discharge_cost": 0
+    }
+  },
+  "household_mapping": {
+    "142": "high_capacity",
+    "1417": "high_capacity",
+    "914": "standard",
+    "1240": "standard",
+    "3000": "standard",
+    "5587": "standard",
+    "387": "standard",
+    "1222": "standard"
+  },
+  "common_battery_types": {
+    "default": {
+      "capacity": 100,
+      "charge_efficiency": 1.0,
+      "max_charge_power": 1.25,
+      "max_discharge_power": 1.25
+    },
+    "lower_efficiency": {
+      "capacity": 100,
+      "charge_efficiency": 0.95,
+      "max_charge_power": 1.25,
+      "max_discharge_power": 1.25
+    }
+  }
+}
